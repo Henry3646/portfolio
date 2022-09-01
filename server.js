@@ -1,5 +1,5 @@
 require('dotenv').config()
-import path from "path";
+const path = require('path')
 const express = require('express')
 const cors = require("cors")
 const mongoose = require("mongoose")
