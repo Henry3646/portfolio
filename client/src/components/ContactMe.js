@@ -35,7 +35,8 @@ function ContactMe() {
     }
 
     return(
-        <div className="app_footer app__flex app__padding" id="contact">
+        <div id="contact">
+            <div className="app_footer app__flex app__padding">
             <h2 className="head-text">Wanna chat? Send me a message</h2>
             <div className="app_footer-cards app__flex">
                 <div className="app_footer-card">
@@ -70,6 +71,7 @@ function ContactMe() {
                 
                
             </div>
+        </div>
         </div>
     )
 }

@@ -5,6 +5,7 @@ import { AppWrap, MotionWrap } from './wrapper'
 function Landing() {
 
     return(
+        <div id="home">
         <div className="app_landing-contianer" id="home">
             <motion.div
                 whileInView={{opacity: [0, 1]}}
@@ -25,6 +26,7 @@ function Landing() {
                 <img src={require('./images/memoji.png')} alt="MeMoji"></img>
             </div>
             </motion.div>
+        </div>
         </div>
     )
 }

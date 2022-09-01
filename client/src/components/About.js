@@ -4,8 +4,8 @@ import { MotionWrap} from './wrapper'
 
 function About() {
     return (
-        
-        <div className="app_about app__flex app__padding" id="about">
+        <div id="about">
+        <div className="app_about app__flex app__padding">
             <h2 className="head-text">About Me</h2>
             <div className="app_about-container">
                 <div className="app_about-text">
@@ -16,6 +16,7 @@ function About() {
                     online. If I get to learn something new and exciting, I'm in!</p>
                 </div>
             </div>
+        </div>
         </div>
     )
 }
