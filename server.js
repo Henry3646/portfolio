@@ -31,7 +31,7 @@ mongoose.connect(process.env.MONGO_URI, {
  const Skill = mongoose.model("Skill", skillSchema)
 
 
- app.get("/", (req, res) => {
+ app.get("/skills", (req, res) => {
     Skill.find({}).then(
         items => res.json(items)
     ).catch(err => console.log(err))

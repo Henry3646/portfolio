@@ -14,15 +14,11 @@ function Skills() {
       ])
     
       useEffect(() => {
-        axios.get("/")
+        axios.get('/skills')
         .then(res => res.json())
         .then(jsonRes => setSkills(jsonRes))
         .catch((err) => console.log(err));
       }, [])
-    
-      useEffect(() => {
-        console.log(skills)
-      }, [skills])
 
     return(
         <div className="app_skills app__padding" id="skills">
