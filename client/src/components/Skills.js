@@ -2,6 +2,7 @@ import React, { useState, useEffect} from "react";
 import { motion } from 'framer-motion';
 import '../Styles/Skills.css';
 import { AppWrap,MotionWrap } from './wrapper'
+import axios from "axios"
 
 
 function Skills() {
@@ -13,7 +14,7 @@ function Skills() {
       ])
     
       useEffect(() => {
-        fetch("http://localhost:3001")
+        axios.get("/skills")
         .then(res => res.json())
         .then(jsonRes => setSkills(jsonRes))
       }, [])

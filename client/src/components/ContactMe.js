@@ -30,7 +30,7 @@ function ContactMe() {
             email: input.email,
             content: input.content
         }
-        axios.post('http://localhost:3001/create', newContact)
+        axios.post('/create', newContact)
         setFormsubmitted(true)
     }
 
