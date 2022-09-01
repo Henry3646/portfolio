@@ -1,0 +1,81 @@
+/*# sourceMappingURL=App.css.map */
+.app__flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-text {
+    font-size: 2.75rem;
+    font-weight: 800;
+    text-align: center;
+    color: var(--primary-white);
+    text-transform: capitalize;
+}
+
+.app__social {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.app__social {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+
+
+    padding: 1rem;
+
+    div {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: var(--primary-blue);
+        margin: 0.25rem 0;
+        border: 1px solid var(--primary-green);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        transition: 0.35s ease-in-out;
+
+        .fa-brands,
+        .fa-solid {
+            color: var(--primary-green);
+            transform: scale(1.5);
+        }
+
+        &:hover {
+            background-color: var(--primary-green);
+            cursor: pointer;
+            .fa-brands,
+            .fa-solid {
+                color: var(--primary-blue);
+            }
+        }
+
+        @media screen and (min-width: 2000px) {
+            width: 70px;
+            height: 70px;
+            margin: 0.5rem 0;
+            .fa-brands,
+            .fa-solid {
+                transform: scale(3);
+            }
+        }
+    }
+}
+
+.app__about {
+    width: 100%;
+}
+
+.app__padding {
+    padding: 6.5rem 0 0 0;
+}

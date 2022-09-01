@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans',sans-serif;
+  background-color: var(--primary-blue);
+  
+}
+
+:root {
+  
+  --primary-blue: #05386B;
+  --secondary-green: #379683;
+  --primary-green: #5CDB95;
+  --light-green: #8EE4AF;
+  --primary-white: #EDF5E1;
+}
+
+html {
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,119 @@
+.app_footer {
+  flex: 1;
+  width: 100%;
+  flex-direction: column;
+}
+@media screen and (max-width: 900px) {
+  .app_footer {
+    transform: translateX(0.5rem);
+  }
+}
+
+.app_footer-cards {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 4rem 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.app_footer-cards .app_footer-card {
+  min-width: 290px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: var(--primary-green);
+  transition: all 0.3s ease-in-out;
+}
+.app_footer-cards .app_footer-card img {
+  width: 40px;
+  height: 40px;
+  margin: 0 0.7rem;
+}
+.app_footer-cards .app_footer-card p {
+  font-weight: 600;
+}
+.app_footer-cards .app_footer-card a {
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--primary-blue);
+}
+.app_footer-cards .app_footer-card:hover {
+  background-color: var(--light-green);
+}
+@media screen and (max-width: 450px) {
+  .app_footer-cards .app_footer-card {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .app_footer-cards {
+    width: 80%;
+  }
+}
+
+.app_footer-form {
+  width: 60%;
+  flex-direction: column;
+  margin: 1rem 2rem;
+}
+.app_footer-form form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.app_footer-form div {
+  width: 100%;
+  margin: 0.75rem 0;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: var(--primary-white);
+  transition: all 0.3s ease-in-out;
+}
+.app_footer-form div input, .app_footer-form div textarea {
+  width: 100%;
+  padding: 0.95rem;
+  border: none;
+  border-radius: 7px;
+  background-color: var(--primary-white);
+  font-family: "Open Sans", sans-serif;
+  color: var(--primary-blue);
+  outline: none;
+}
+.app_footer-form div textarea {
+  height: 170px;
+  width: 91%;
+}
+.app_footer-form div:hover {
+  box-shadow: 0 0 10px var(--primary-green);
+}
+.app_footer-form button {
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--primary-green);
+  color: var(--primary-blue);
+  font-weight: 500;
+  margin: 2rem 0 0 0;
+  cursor: pointer;
+  transition: 0.35s ease-in-out;
+}
+.app_footer-form button:hover {
+  background-color: var(--light-green);
+}
+@media screen and (max-width: 768px) {
+  .app_footer-form {
+    width: 100%;
+    margin: 1rem 0;
+  }
+}
+
+.formsubmitted {
+  padding: 8rem 0;
+}/*# sourceMappingURL=ContactMe.css.map */

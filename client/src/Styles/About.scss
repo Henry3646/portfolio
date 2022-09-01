@@ -1,0 +1,28 @@
+.app_about {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    .app_about-container {
+        width: 70%;
+        background-color: var(--primary-green);
+        color: var(--primary-blue);
+        font-size: 2rem;
+        padding: 2rem 4rem;
+        border-radius: 30px;
+        text-align: center;
+        
+        @media screen and (max-width: 900px) {
+            text-align: center;
+            font-size: 1rem;
+            padding: 1rem 2rem;
+        }
+    }
+    @media screen and (max-width: 900px) {
+        transform: translateX(0.5rem);
+        
+    }
+}
+
+
