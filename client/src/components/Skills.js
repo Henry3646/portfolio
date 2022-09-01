@@ -14,9 +14,10 @@ function Skills() {
       ])
     
       useEffect(() => {
-        axios.get("/skills")
+        axios.get("/")
         .then(res => res.json())
         .then(jsonRes => setSkills(jsonRes))
+        .catch((err) => console.log(err));
       }, [])
     
       useEffect(() => {
