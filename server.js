@@ -32,8 +32,8 @@ mongoose.connect(process.env.MONGO_URI, {
  const Skill = mongoose.model("Skill", skillSchema)
 
 
- app.get("/skills", (req, res) => {
-    Skill.find({}).then(
+ app.get("/", (req, res) => {
+    Skill.find().then(
         items => res.json(items)
     ).catch(err => console.log(err))
  })
@@ -47,6 +47,7 @@ mongoose.connect(process.env.MONGO_URI, {
     })
   }
 
+  const port = process.env.PORT || 3001
  app.listen(process.env.PORT || 3001, function () {
-    console.log("Server running....")
+    console.log("Server running....", port)
  })

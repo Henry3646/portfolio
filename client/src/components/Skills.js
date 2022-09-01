@@ -8,15 +8,18 @@ import axios from "axios"
 function Skills() {
     const [skills, setSkills] = useState([
         {
-          name: "",
-          url: ""
-        }
+            name: "",
+            url: ""
+          }
       ])
     
       useEffect(() => {
-        axios.get('/skills')
-        .then(res => res.json())
-        .then(jsonRes => setSkills(jsonRes))
+        axios
+        .get("/")
+        .then((res) => {
+            console.log(res);
+            setSkills(res.data)
+        })
         .catch((err) => console.log(err));
       }, [])
 
