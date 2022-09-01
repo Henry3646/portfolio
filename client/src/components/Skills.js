@@ -15,7 +15,7 @@ function Skills() {
     
       useEffect(() => {
         axios
-        .get("/")
+        .get("/skills")
         .then((res) => {
             console.log(res);
             setSkills(res.data)
