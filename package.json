@@ -2,8 +2,7 @@
   "name": "portfolio-mern-test",
   "version": "1.0.0",
   "engines": {
-    "node": "16.16.0",
-    "npm" : "8.11.0"
+    "node": ">= 12.11.0"
   },
   "description": "",
   "main": "index.js",
