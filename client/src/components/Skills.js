@@ -17,7 +17,7 @@ function Skills() {
         axios
         .get("/skills")
         .then((res) => {
-            console.log(res);
+            
             setSkills(res.data)
         })
         .catch((err) => console.log(err));

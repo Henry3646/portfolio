@@ -1,0 +1,136 @@
+.app_projects {
+    width: 100%;
+   
+
+    .app_projects-container {
+        width: 100%;
+        @media screen and (max-width: 900px) {
+            transform: translateX(0.5rem);
+        }
+
+        .app_projects-map {
+            width: 100%;
+           
+            .app_project-item {
+                width: 95%;
+                border-top: 1px solid var(--primary-green);
+
+                .container {
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+
+                    @media screen and(max-width: 900px) {
+                        justify-content: center;
+                        align-items: center;
+                        
+                    }
+
+                    h2 {
+                        font-size: 2rem;
+                        color: var(--primary-white);
+                        border-bottom: 2px solid var(--primary-green);
+                    }
+
+                    .project-container {
+                        flex-direction: row;
+                        gap: 3rem;
+                        
+
+                        @media screen and (max-width: 900px) {
+                            flex-direction: column;
+                        }
+
+                        .project-img {
+                            width: 50%;
+                            box-shadow: 0 0 20px 2px var(--primary-green);
+                            border-radius: 5px;
+                            @media screen and (max-width: 900px) {
+                                width: 100%;
+                            }
+                            img {
+                                height: 100%;
+                                width: 100%;
+                                border-radius: 5px;
+                            }
+                        }
+
+                        .project-text {
+                            color: var(--primary-white);
+                            width: 50%;
+                            gap: 1.5rem;
+                            flex-direction: column;
+                            align-items: flex-start;
+                            @media screen and (max-width: 900px) {
+                                width: 100%;
+                                align-items: center;
+                            }
+                            
+
+                            .project-description {
+                                gap: 0.8rem;
+                                flex-direction: column;
+                                align-items: flex-start;
+
+                                @media screen and (max-width: 900px) {
+                                    align-items: center;
+                                }
+
+                                .project-title {
+                                    font-size: 2rem;
+                                    
+                                    
+                                }
+                                .description {
+                                        font-size: 1.5rem;
+
+                                        @media screen and (max-width: 900px) {
+                                            font-size: 1.25rem;
+                                            text-align: center;
+                                        }
+                                    }
+                            }
+
+                            .project-tech {
+                                gap: 0.8rem;
+                                flex-direction: column;
+                                align-items: flex-start;
+
+                                @media screen and (max-width: 900px) {
+                                    align-items: center;
+                                }
+                                .tech-title {
+                                    font-size: 1.75rem;
+                                }
+                                .tech {
+                                    font-size: 1.25rem;
+                                    @media screen and (max-width: 900px) {
+                                        font-size: 1.125rem;
+                                    }
+                                }
+                            }
+                        }
+
+                        .project-links {
+                            width: 100%;
+                            flex-direction: row;
+                            gap: 50%;
+
+                            a {
+                                font-size: 3rem;
+
+                                i {
+                                    color: var(--primary-white);
+                                    transition: 0.25s ease-in-out;
+                                    &:hover {
+                                        color: var(--primary-green);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

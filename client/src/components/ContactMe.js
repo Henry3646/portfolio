@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import  { MotionWrap, AppWrap } from './wrapper'
+import  { MotionWrap } from './wrapper'
 import '../Styles/ContactMe.css'
 import axios from "axios"
 
@@ -76,4 +76,4 @@ function ContactMe() {
     )
 }
 
-export default AppWrap(MotionWrap(ContactMe, 'app_ContactMe'))
+export default MotionWrap(ContactMe, 'app_ContactMe')

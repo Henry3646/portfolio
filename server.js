@@ -38,6 +38,24 @@ mongoose.connect(process.env.MONGO_URI, {
     ).catch(err => console.log(err))
  })
 
+  const projectSchema = new mongoose.Schema({
+     name: String,
+     description: String,
+     techStack: String,
+     githubRepo: String,
+     liveLink: String,
+     imgLink: String,
+    })
+
+  const Project = mongoose.model("Project", projectSchema)
+
+
+  app.get("/projects", (req, res) => {
+       Project.find().then(
+         items => res.json(items)
+     ).catch(err => console.log(err))
+  })
+
  app.use("/", require("./routes/contactRoute"));
 
  if(process.env.NODE_ENV === 'production') {
