@@ -19,9 +19,4 @@
     font-size: 1rem;
     padding: 1rem 2rem;
   }
-}
-@media screen and (max-width: 900px) {
-  .app_about {
-    transform: translateX(0.5rem);
-  }
 }/*# sourceMappingURL=About.css.map */

@@ -30,7 +30,7 @@ function Projects() {
     return(
         <div className="app_projects-container app__padding" id="projects">
             <h2 className="app_projects-header head-text">Projects</h2>
-            <div className="app_projects-map">
+            <div className="app_projects-map app__flex">
                 <motion.div className="app_project-list app__flex">
                     {projects.map(project => {
                         return(

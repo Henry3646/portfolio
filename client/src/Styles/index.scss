@@ -3,6 +3,12 @@ body {
   font-family: 'Open Sans',sans-serif;
   background-color: var(--primary-blue);
   overflow-x: hidden;
+
+  @media screen and (max-width: 900px) {
+    width: 111vw;
+  }
+  
+  
   
 }
 

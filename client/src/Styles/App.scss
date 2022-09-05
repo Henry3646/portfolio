@@ -11,6 +11,10 @@
     text-align: center;
     color: var(--primary-white);
     text-transform: capitalize;
+
+    @media screen and (max-width: 900px) {
+        font-size: 2.5rem;
+    }
 }
 
 .app__social {

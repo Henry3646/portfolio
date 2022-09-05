@@ -4,16 +4,18 @@
 
     .app_projects-container {
         width: 100%;
-        @media screen and (max-width: 900px) {
-            transform: translateX(0.5rem);
-        }
+        
 
         .app_projects-map {
             width: 100%;
+            flex-direction: column;
+           
            
             .app_project-item {
                 width: 95%;
-                border-top: 1px solid var(--primary-green);
+                border-top: 3px solid var(--primary-green);
+                padding-top: 2rem;
+                padding-bottom: 2rem;
 
                 .container {
                     flex-direction: column;
@@ -29,7 +31,11 @@
                     h2 {
                         font-size: 2rem;
                         color: var(--primary-white);
-                        border-bottom: 2px solid var(--primary-green);
+                        border-bottom: 1px solid var(--primary-green);
+
+                        @media screen and (max-width: 900px) {
+                            text-align: center;
+                        }
                     }
 
                     .project-container {
@@ -130,7 +136,12 @@
                         }
                     }
                 }
-            }
+           }
+        
         }
     }
+}
+
+.app_project-list {
+    flex-direction: column;
 }

@@ -10,9 +10,9 @@
     z-index: 2;
     transform: translateX(-5rem);
     
-    @media screen and (max-width: 900px) {
+   @media screen and (max-width: 900px) {
         transform: translateX(0rem);
-    }
+   }
 }
 
 /* Name Logo*/
@@ -37,9 +37,11 @@
     @media screen and (min-width: 2000px) {
         font-size: 70px;
     }
+
     @media screen and (max-width: 900px) {
         transform: translateX(0rem);
     }
+    
 }
 
 .app_navbar-links{
@@ -91,6 +93,7 @@
 
     @media screen and (max-width: 900px) {
         display: none;
+        
     }
 }
 

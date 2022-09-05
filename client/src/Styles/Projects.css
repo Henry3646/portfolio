@@ -4,17 +4,15 @@
 .app_projects .app_projects-container {
   width: 100%;
 }
-@media screen and (max-width: 900px) {
-  .app_projects .app_projects-container {
-    transform: translateX(0.5rem);
-  }
-}
 .app_projects .app_projects-container .app_projects-map {
   width: 100%;
+  flex-direction: column;
 }
 .app_projects .app_projects-container .app_projects-map .app_project-item {
   width: 95%;
-  border-top: 1px solid var(--primary-green);
+  border-top: 3px solid var(--primary-green);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .app_projects .app_projects-container .app_projects-map .app_project-item .container {
   flex-direction: column;
@@ -30,7 +28,12 @@
 .app_projects .app_projects-container .app_projects-map .app_project-item .container h2 {
   font-size: 2rem;
   color: var(--primary-white);
-  border-bottom: 2px solid var(--primary-green);
+  border-bottom: 1px solid var(--primary-green);
+}
+@media screen and (max-width: 900px) {
+  .app_projects .app_projects-container .app_projects-map .app_project-item .container h2 {
+    text-align: center;
+  }
 }
 .app_projects .app_projects-container .app_projects-map .app_project-item .container .project-container {
   flex-direction: row;
@@ -126,4 +129,8 @@
 }
 .app_projects .app_projects-container .app_projects-map .app_project-item .container .project-container .project-links a i:hover {
   color: var(--primary-green);
+}
+
+.app_project-list {
+  flex-direction: column;
 }/*# sourceMappingURL=Projects.css.map */

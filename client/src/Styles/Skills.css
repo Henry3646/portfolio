@@ -6,11 +6,6 @@
   justify-content: center;
   align-items: center;
 }
-@media screen and (max-width: 900px) {
-  .app_skills {
-    transform: translateX(0.5rem);
-  }
-}
 
 .app_skills-container {
   width: 80%;
@@ -40,7 +35,7 @@
     margin-right: 0;
     justify-content: center;
     align-items: center;
-    transform: translateX(0.2rem);
+    transform: translateX(0rem);
   }
 }
 
