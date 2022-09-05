@@ -46,7 +46,6 @@
 }
 .app_projects .app_projects-container .app_projects-map .app_project-item .container .project-container .project-img {
   width: 50%;
-  box-shadow: 0 0 20px 2px var(--primary-green);
   border-radius: 5px;
 }
 @media screen and (max-width: 900px) {
@@ -58,6 +57,7 @@
   height: 100%;
   width: 100%;
   border-radius: 5px;
+  box-shadow: 0 0 20px 2px var(--primary-green);
 }
 .app_projects .app_projects-container .app_projects-map .app_project-item .container .project-container .project-text {
   color: var(--primary-white);
