@@ -7,9 +7,10 @@ import Skills from './components/Skills';
 import ContactMe from './components/ContactMe';
 import About from './components/About';
 import ReactGA from 'react-ga'
-require('dotenv').config()
 
-ReactGA.initialize(process.env.TRACKING_ID)
+const TRACKING_ID = "UA-238865861-1"
+ReactGA.initialize(TRACKING_ID)
+
 
 
 function App() {
