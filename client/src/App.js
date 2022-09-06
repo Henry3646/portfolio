@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Styles/App.css';
 import Header from './components/Header.js';
 import Landing from './components/Landing';
@@ -14,6 +14,10 @@ ReactGA.initialize(TRACKING_ID)
 
 
 function App() {
+
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname);
+  })
   return (
     <div className="App">
       <div id='top'></div>
