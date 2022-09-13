@@ -13,8 +13,16 @@
     align-items: center;
     margin: 4rem 2rem 2rem;
     display: flex;
+    flex-direction: row;
+    
+   .app_footer-button-cards {
+    display: flex;
     flex-direction: column;
-
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+    transform: translateY(-3rem);
+   }
     .app_footer-card {
         min-width: 290px;
         display: flex;
@@ -51,13 +59,14 @@
         }
     }
     @media screen and (max-width: 768px) {
+        flex-direction: column;
         width: 80%;
     }
 
 }
 
 .app_footer-form {
-    width: 150%;
+    width: 80rem;
     flex-direction: column;
     margin: 1rem 2rem;
     form {

@@ -9,11 +9,11 @@ function About() {
             <h2 className="head-text">About Me</h2>
             <div className="app_about-container">
                 <div className="app_about-text">
-                    <p>Hi, I'm Henry. I'm a Computer Engineering and Computer Science student at the University of St. Thomas.
-                    Originally, I was only studying Computer Engineering. It was only when I took an Object-Oriented Programming course I discovered a
-                    new passion for Development and Software Engineering. Since then, I have been taking every chance I can get to expand
-                    my knowledge and skills in both fields. Whether it's taking summer courses through my University, learning web development with The Odin Project, or taking self-paced courses 
-                    online. If I get to learn something new and exciting, I'm in!</p>
+                    <p>Hi, I'm Henry. I'm a Computer Science student at the University of St. Thomas.
+                    Recently, I switched majors from Computer Engineering to Computer Science in order to pursue my true passion for programming.
+                    When I'm not in school, I love to learn new skills, languages, and technologies. 
+                    I then put those skills to use and implement them into my personal projects.
+                    </p>
                 </div>
             </div>
         </div>

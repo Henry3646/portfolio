@@ -11,19 +11,28 @@
 .app_projects .app_projects-container .app_projects-map .app_project-item {
   width: 95%;
   border-top: 3px solid var(--primary-green);
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding: 2rem 0rem;
 }
 .app_projects .app_projects-container .app_projects-map .app_project-item .container {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  padding-top: 0rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  transition: 0.35s ease-in-out;
+  border-radius: 20px;
 }
 @media screen and (max-width: 900px) {
   .app_projects .app_projects-container .app_projects-map .app_project-item .container {
     justify-content: center;
     align-items: center;
   }
+}
+.app_projects .app_projects-container .app_projects-map .app_project-item .container:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  transform: scale(1.01);
 }
 .app_projects .app_projects-container .app_projects-map .app_project-item .container h2 {
   font-size: 2rem;

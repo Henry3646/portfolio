@@ -78,4 +78,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transform: translateY(-3rem);
+}
+@media screen and (max-width: 900px) {
+  .app_landing-memoji {
+    transform: translateY(-1rem);
+  }
 }/*# sourceMappingURL=Landing.css.map */

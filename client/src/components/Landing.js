@@ -14,7 +14,7 @@ function Landing() {
             <div className="app_landing-intro">
                 <div className="app-landing-intro-text">Hi, I'm Henry!<br />
                     I'm a <span className="colored-text">Full-Stack Developer</span> 
-                    <br />and <span className="colored-text">Computer Engineer</span>.</div>
+                    <br />and <span className="colored-text">Computer Science Student</span>.</div>
                 
                 <div className="app_landing-hireme">
                     <a href={`#contact`} >Hire Me</a>

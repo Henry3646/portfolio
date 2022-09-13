@@ -39,6 +39,7 @@ function ContactMe() {
             <div className="app_footer app__flex app__padding">
             <h2 className="head-text">Wanna chat? Send me a message</h2>
             <div className="app_footer-cards app__flex">
+                <div className="app_footer-button-cards">
                 <div className="app_footer-card">
                     <img src={require('./images/email.png')} alt='email'></img>
                     <a href="mailto:arlthenry54@gmail.com" className="p-text" target={'_blank'} rel="noreferrer">arlthenry54@gmail.com</a>
@@ -46,6 +47,11 @@ function ContactMe() {
                 <div className="app_footer-card">
                     <img src={require('./images/phone.png')} alt='phone'></img>
                     <a href="tel: +1 (763) 354-4331" className="p-text" target={'_blank'} rel="noreferrer">+1 (763) 354-4331</a>
+                </div>
+                <div className="app_footer-card">
+                    <img src={require('./images/linkedin.png')} alt='LinkedIn'></img>
+                    <a href="https://www.linkedin.com/in/henry-arlt/" className="p-text" target={'_blank'} rel="noreferrer">linkedin.com/in/henry-arlt/</a>
+                </div>
                 </div>
                 {!formsubmitted ? 
                 <div className="app_footer-form app__flex">
