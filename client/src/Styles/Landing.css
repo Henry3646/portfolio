@@ -52,6 +52,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 1;
   transition: 0.35s ease-in-out;
 }
 .app_landing-intro .app_landing-hireme a {
@@ -79,6 +80,7 @@
   justify-content: center;
   align-items: center;
   transform: translateY(-3rem);
+  width: 100%;
 }
 @media screen and (max-width: 900px) {
   .app_landing-memoji {

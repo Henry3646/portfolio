@@ -4,12 +4,6 @@ body {
   background-color: var(--primary-blue);
   overflow-x: hidden;
 }
-@media screen and (max-width: 900px) {
-  body {
-    width: 111vw;
-  }
-}
-
 :root {
   --primary-blue: #05386B;
   --secondary-green: #379683;
