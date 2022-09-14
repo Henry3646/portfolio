@@ -76,4 +76,10 @@
 
 .app__padding {
   padding: 6.5rem 0 0 0;
+}
+
+@media screen and (max-width: 900px) {
+  #root {
+    transform: translateX(0.75rem);
+  }
 }/*# sourceMappingURL=App.css.map */
