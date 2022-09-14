@@ -83,3 +83,9 @@
 .app__padding {
     padding: 6.5rem 0 0 0;
 }
+
+#root {
+    @media screen and (max-width: 900px) {
+        //transform: translateX(0.75rem);
+    }
+}
