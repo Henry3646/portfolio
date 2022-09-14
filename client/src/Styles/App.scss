@@ -83,3 +83,11 @@
 .app__padding {
     padding: 6.5rem 0 0 0;
 }
+
+
+.App {
+    @media screen and (max-width: 900px){
+       // padding-left: 0.5rem;
+       //width: 110%;
+    }
+}
