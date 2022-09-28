@@ -3,7 +3,7 @@ const SocialMedia = () => {
   return (
     <div className='app__social'>
         <div>
-            <a href='https://storage.googleapis.com/henry-portfolio-bucket/HenryArltResume.pdf' target={'_blank'} alt='Resume' rel="noreferrer">
+            <a href='https://storage.googleapis.com/henry-portfolio-bucket/HenryArlt_Resume.pdf' target={'_blank'} alt='Resume' rel="noreferrer">
                 <i className="fa-solid fa-file-arrow-down"></i>
             </a>
         </div>
