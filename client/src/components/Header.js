@@ -7,9 +7,7 @@ function Header() {
     const [toggle, setToggle] = useState(false);
     return(
                 <nav className="app_navbar">
-                    <a href="#home" className="app_navbar-logo">
-                        HA
-                    </a>
+                   
 
                     <ul className="app_navbar-links">
                         {['home', 'projects', 'skills', 'about', 'contact'].map((item) => (                            
@@ -18,6 +16,18 @@ function Header() {
                             </li>
                         ))}
                     </ul>
+                    <div className='app__social'>
+                        <div>
+                            <a href='https://www.linkedin.com/in/henry-arlt/' target={'_blank'} alt='LinkedIn' rel="noreferrer">
+                                <i className="fa-brands fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href='https://github.com/Henry3646' target={'_blank'} alt='GitHub' rel="noreferrer">
+                                <i className="fa-brands fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
 
                     <div className="app_navbar-menu">
                         <HiMenuAlt4 onClick={() => setToggle(true) }/>

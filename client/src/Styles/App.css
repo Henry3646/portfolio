@@ -20,18 +20,20 @@
 
 .app__social {
   position: absolute;
-  bottom: 0;
-  left: 0;
-  display: flex;
-  flex-direction: column;
-}
-
-.app__social {
+  right: 2rem;
+  top: 0rem;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
+  gap: 1rem;
   padding: 1rem;
+}
+@media screen and (max-width: 900px) {
+  .app__social {
+    position: relative;
+    left: 1rem;
+  }
 }
 .app__social div {
   width: 40px;

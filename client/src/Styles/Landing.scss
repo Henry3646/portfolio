@@ -19,6 +19,21 @@
     }
 
 }
+
+.app_landing-buttons {
+    display: flex;
+    gap: 1rem;
+    z-index: 10;
+
+    a {
+        text-decoration: none;
+        color: var(--primary-blue);
+        
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
 .app_landing-intro{
     display: flex;
     flex-direction: column;
@@ -82,6 +97,9 @@
     align-items: center;
     transform: translateY(-3rem);
     width: 100%;
+    img {
+        z-index: 0;
+    }
 
     @media screen and (max-width: 900px) {
         transform: translateY(-1rem);

@@ -8,41 +8,6 @@
   -webkit-backdrop-filter: blur(4px);
           backdrop-filter: blur(4px);
   z-index: 2;
-  transform: translateX(-5rem);
-}
-@media screen and (max-width: 900px) {
-  .app_navbar {
-    transform: translateX(0rem);
-  }
-}
-
-/* Name Logo*/
-.app_navbar-logo {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  font-size: 2rem;
-  padding: 0.75rem;
-  border: 5px solid var(--primary-green);
-  border-radius: 50%;
-  color: var(--primary-white);
-  font-weight: bolder;
-  margin: 1rem 2rem;
-  transform: translateX(5rem);
-  text-decoration: none;
-}
-.app_navbar-logo:hover {
-  cursor: pointer;
-}
-@media screen and (min-width: 2000px) {
-  .app_navbar-logo {
-    font-size: 70px;
-  }
-}
-@media screen and (max-width: 900px) {
-  .app_navbar-logo {
-    transform: translateX(0rem);
-  }
 }
 
 .app_navbar-links {
@@ -52,6 +17,7 @@
   align-items: center;
   text-decoration: none;
   list-style: none;
+  padding-top: 1rem;
 }
 .app_navbar-links li {
   margin: 0 1.5rem;

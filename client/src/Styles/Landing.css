@@ -22,6 +22,19 @@
   }
 }
 
+.app_landing-buttons {
+  display: flex;
+  gap: 1rem;
+  z-index: 10;
+}
+.app_landing-buttons a {
+  text-decoration: none;
+  color: var(--primary-blue);
+}
+.app_landing-buttons a:hover {
+  cursor: pointer;
+}
+
 .app_landing-intro {
   display: flex;
   flex-direction: column;
@@ -81,6 +94,9 @@
   align-items: center;
   transform: translateY(-3rem);
   width: 100%;
+}
+.app_landing-memoji img {
+  z-index: 0;
 }
 @media screen and (max-width: 900px) {
   .app_landing-memoji {
