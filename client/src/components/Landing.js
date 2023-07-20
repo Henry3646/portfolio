@@ -22,7 +22,7 @@ function Landing() {
                     <a href={`#contact`} >Hire Me</a>
                 </div>
                 <div>
-                <a className="app_landing-hireme" href='https://storage.googleapis.com/henry-portfolio-bucket/HenryArlt_Resume.pdf' target={'_blank'} alt='Resume' rel="noreferrer">
+                <a className="app_landing-hireme" href='https://storage.googleapis.com/henry-portfolio-bucket/HenryArlt__Resume.pdf' target={'_blank'} alt='Resume' rel="noreferrer">
                     Resume
                 </a>
                 </div>
